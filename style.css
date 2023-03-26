@@ -1,0 +1,54 @@
+*{
+  background-color: lightblue;
+}
+
+.container {
+  width: 100%;
+  margin: 30px;
+  text-align: center;
+}
+
+.list-text {
+  color: rgb(209, 2, 2);
+  font-size: 50px;
+  font-family: sans-serif;
+}
+
+#inputText {
+  padding: 20px 25px;
+  border: 1px solid rgb(209, 2, 2);
+  border-radius: 10px;
+  color: rgb(209, 2, 2);
+  outline: none;
+  vertical-align: middle;
+}
+.form-btn {
+  padding: 20px;
+  border: 1px solid white;
+  background-color: rgb(209, 2, 2);
+  color: white;
+  border-radius: 10px;
+}
+.form-btn:active {
+  background-color: white;
+  border: rgb(209, 2, 2);
+  color: rgb(209, 2, 2);
+}
+.paragraph {
+  font-family: sans-serif;
+  font-size: 20px;
+  color: rgb(209, 2, 2);
+}
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+.deleteBtn {
+  padding: 5px 5px;
+  border-radius: 10px;
+  border: 1px solid white;
+  background-color: rgb(209, 2, 2);
+  color: white ;
+}
